@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Exercise5WebAtuomationTestingBasicsExam2022 by packages]">
+  <test thread-count="5" name="exercise5TestCases(failed)">
+    <classes>
+      <class name="exercise5TestCases.CruiseHomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="searchButtonTest"/>
+          <include name="DestinationCruiseTest"/>
+          <include name="DepartsAsDateTest"/>
+        </methods>
+      </class> <!-- exercise5TestCases.CruiseHomePageTest -->
+      <class name="exercise5TestCases.CruisePricePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="chosenCruisePriceTest"/>
+        </methods>
+      </class> <!-- exercise5TestCases.CruisePricePageTest -->
+      <class name="exercise5TestCases.CruiseLengthPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="chosenCruiselengthTest"/>
+        </methods>
+      </class> <!-- exercise5TestCases.CruiseLengthPageTest -->
+    </classes>
+  </test> <!-- exercise5TestCases(failed) -->
+</suite> <!-- Failed suite [Exercise5WebAtuomationTestingBasicsExam2022 by packages] -->

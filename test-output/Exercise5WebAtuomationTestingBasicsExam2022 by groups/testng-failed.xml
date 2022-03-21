@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Exercise5WebAtuomationTestingBasicsExam2022 by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-cruiseTest(failed)">
+    <groups>
+      <run>
+        <include name="cruiseTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Exercise5.testCases.CruiseHomePageTest">
+        <methods>
+          <include name="searchButtonTest"/>
+          <include name="DepartsAsDateTest"/>
+          <include name="DestinationCruiseTest"/>
+        </methods>
+      </class> <!-- com.Exercise5.testCases.CruiseHomePageTest -->
+      <class name="com.Exercise5.testCases.CruiseLengthPageTest">
+        <methods>
+          <include name="chosenCruiselengthTest"/>
+        </methods>
+      </class> <!-- com.Exercise5.testCases.CruiseLengthPageTest -->
+    </classes>
+  </test> <!-- GRP-cruiseTest(failed) -->
+</suite> <!-- Failed suite [Exercise5WebAtuomationTestingBasicsExam2022 by groups] -->
